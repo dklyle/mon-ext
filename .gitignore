@@ -1,3 +1,4 @@
 *.pyc
+MANIFEST
 dist
 mon_ext.egg-info
