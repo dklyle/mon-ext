@@ -1,0 +1,3 @@
+*.pyc
+dist
+mon_ext.egg-info
