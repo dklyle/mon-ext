@@ -27,7 +27,6 @@ class LogTab(tabs.Tab):
         log = _('Unable to get log for %s service.') % self.name
         lines = []
         try:
-            #log = "this is a test\nanother line"
             if os.path.isfile(self.log_filename):
                 with open(self.log_filename, "r") as log_file:
                     lines = log_file.readlines()
