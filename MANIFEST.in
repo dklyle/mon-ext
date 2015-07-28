@@ -1,1 +1,4 @@
 include setup.py
+
+recursive-include mon_panel/templates *
+recursive-include log_panel/templates *
